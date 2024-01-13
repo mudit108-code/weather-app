@@ -1,9 +1,12 @@
 {
-    "name" : "weather app",
-    "version" : "0.0.1",
-    "manifest_version" : 3,
-    "action" : {
-        "default_popup": "index.html"
+    "name": "Weather App",
+    "version": "0.0.2",  // Update the version number
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"  // Replace with the appropriate icon file
     },
-    "permissions": ["geolocation"]
+    "permissions": [
+        "geolocation"
+    ]
 }
